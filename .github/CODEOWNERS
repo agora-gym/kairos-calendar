@@ -1,0 +1,4 @@
+# Hypatia owns governance-sensitive database work; Cam owns the app surface.
+/app/ @cam-ai-lab
+/components/ @cam-ai-lab
+/lib/database.ts @hypatia-lead

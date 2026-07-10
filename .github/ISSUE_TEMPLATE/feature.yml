@@ -1,0 +1,21 @@
+name: Feature request
+description: Propose an observable user outcome
+title: '[Feature]: '
+labels: [enhancement, needs-triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: User problem
+      description: Who is blocked, and what are they trying to accomplish?
+    validations: { required: true }
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Acceptance criteria
+      description: Describe behavior we can verify.
+    validations: { required: true }
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
