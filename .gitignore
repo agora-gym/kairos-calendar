@@ -5,3 +5,23 @@ node_modules/
 playwright-report/
 test-results/
 *.log
+
+# ~/code reorganization baseline
+.venv/
+venv/
+.conda/
+dist/
+build/
+target/
+.gradle/
+.turbo/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pickle
+token.json
+.DS_Store
+.idea/
+.vscode/
